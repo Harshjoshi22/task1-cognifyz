@@ -1,0 +1,149 @@
+.navbar{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.navdiv{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav  ul li a{
+    text-decoration: none;
+    margin-right: 55px;
+    color:whitesmoke;
+    font-size: 20px;
+   position: relative;
+}
+nav ul li  a::after{
+    content: '';
+    left: 0;
+    bottom: -5px;
+ background: rgb(255, 115, 0);
+    position: absolute; 
+    width: 0;
+    height:3px;  
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+
+}
+.logo{
+  border-radius: 50%;
+  border-bottom-left-radius: 80%;
+border-bottom-right-radius: 80%;
+}
+body{
+    background-color: black;
+}
+/*-------navigation bar ends here----*/
+div h1, div p{
+color: white;
+padding-left: 30px;
+margin-top: 85px;
+}
+div h1{
+    margin-top: 90px;
+    font-size: 50px;
+    text-shadow: 1px 1px rgb(226, 28, 28);
+}
+.html{
+    font-weight: 800;
+    font-size: large;
+    font-family:cursive;
+    color:rgb(255, 115, 0);
+}
+.about{
+    display:flex;
+    justify-content: space-between;
+}
+.img{
+    
+    margin-left: 15%;
+    margin-top: 13%;
+    border-radius: 8%;
+}
+/*-----about start from here-----*/
+h2{
+    color:white;
+    text-align: left;
+    font-size: 25px;
+    margin-top:-15px;
+}
+.about1 h2{
+    padding-left:85px;
+}
+.htmlimg{
+    padding-left: 80px;
+}
+.abouthtml{
+    display:flex;
+    
+    
+}
+.about2 h2{
+    padding-left:30px;
+}
+.about2 {
+
+padding-right: 20%;
+
+}
+.about2 p{
+   margin-top: 25px;
+
+}
+.about1 p{
+    margin-top: 53px;
+    text-align:left;
+    padding-left:80px; 
+   
+}
+.cssimg{
+    margin-top:-20px;
+    margin-left:10%;
+}
+/*---------about ends here------*/
+.details{
+    color:white;
+    list-style:none;
+}
+ul li{
+    margin-top: 25px;
+}
+strong{
+    color: orange;
+    font-size:large
+}
+label{
+    color: black;
+    font-size:larger;
+    padding-left:40px;
+    text-decoration: underline;
+    
+}
+hh{
+    padding-left:30px;
+}
+form{
+    padding-top:50px;
+}
+.submit{
+    padding-left:40px;
+    text-align:center;
+    padding-top:10px;
+
+}
+
+fieldset{
+    background-color: rgb(117, 93, 93);
+    border:2px solid black;
+}
+bold{
+    font-size: 20px;
+    font-weight: 700;
+}
